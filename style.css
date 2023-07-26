@@ -4,10 +4,43 @@
 
 .title{
     color: aliceblue;
-    font-size: 24px;
+    font-size: 48px;
+    font-family: 'Inspiration', cursive;
 }
 
 .header{
     text-align: center;
     background-color: rgba(3, 57, 138, 0.596);
+}
+
+.sobre {
+    text-align: center;
+}
+
+.textosobre{
+    color: aliceblue;
+}
+
+.textohabilidade{
+    position: absolute;
+    color: aliceblue;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 10%;
+    background-color: rgba(133, 126, 126, 0.349);
+}
+
+.textointrodução{
+    position: fixed;
+    color: aliceblue;
+    text-align: left;
+    margin-right: 50%;
+    margin-top: 10%;
+    background-color: rgba(133, 126, 126, 0.349);
+}
+
+.escudo{
+    
+    max-width: 600px;
+    
 }
