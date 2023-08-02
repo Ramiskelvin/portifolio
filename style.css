@@ -31,10 +31,10 @@
 }
 
 .textointrodução{
-    position: fixed;
+    position: absolute;
     color: aliceblue;
     text-align: left;
-    margin-right: 50%;
+    margin-left: 75%;
     margin-top: 10%;
     background-color: rgba(133, 126, 126, 0.349);
 }
@@ -43,4 +43,22 @@
     
     max-width: 600px;
     
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(133, 126, 126, 0.349);
+    
+}
+
+.github{
+    position: absolute;
+    max-height: 100px;
+    margin-left: 50%
+
+}
+.whatsAPP{
+    position: absolute;
+    max-width: 200px;
+    margin-left: 35%
 }
