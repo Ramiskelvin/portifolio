@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
 .body {
     background-color: black;
 }
@@ -13,36 +19,57 @@
     background-color: rgba(3, 57, 138, 0.596);
 }
 
-.sobre {
+.textosobre{
     text-align: center;
+    color: aliceblue;
 }
 
-.textosobre{
-    color: aliceblue;
+.conteudo {
+
+    padding: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .textohabilidade{
-    position: absolute;
-    color: aliceblue;
-    text-align: left;
-    margin-left: 5%;
-    margin-top: 10%;
+    height: fit-content;
     background-color: rgba(133, 126, 126, 0.349);
+    border-radius: 7px;
 }
 
-.textointrodução{
-    position: absolute;
-    color: aliceblue;
-    text-align: left;
-    margin-left: 75%;
-    margin-top: 10%;
-    background-color: rgba(133, 126, 126, 0.349);
+.textohabilidade p{
+    padding: 7px;
+    border-bottom: 1px solid rgba(133, 126, 126, 0.349);
+    transition: 1s;
+    color:white;
+}
+
+.textohabilidade p:hover{
+    border-color: rgba(60, 60, 230, 0.822);
 }
 
 .escudo{
-    
     max-width: 600px;
+    display: block;
+    margin-inline: auto;
     
+}
+
+.apresentação{
+    border: 1px solid #ffffff98;
+    padding: 20px;
+    background-color: rgba(133, 126, 126, 0.349);
+    border-radius: 7px;
+    width: 200px;
+    height: fit-content;
+    color: #fff;
+    background-color: rgba(133, 126, 126, 0.349);
+    transition: 1s;
+
+}
+
+.apresentação:hover {
+    background-color: purple;
 }
 .footer{
     width: 100%;
@@ -61,4 +88,23 @@
     position: absolute;
     max-width: 200px;
     margin-left: 35%
+}
+.dragão  {
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+.dragão img {
+    position: absolute;
+    right: 0%;
+    width: 200px;
+    height: 100px;
+    animation: dragão 6s ease;
+}
+
+@keyframes dragão {
+    to {
+        right: 100%;
+
+    }
 }
