@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -6,17 +7,65 @@
 
 .body {
     background-color: black;
+    font-family: 'VT323', monospace;
 }
 
 .title{
     color: aliceblue;
     font-size: 48px;
-    font-family: 'Inspiration', cursive;
 }
 
 .header{
-    text-align: center;
-    background-color: rgba(3, 57, 138, 0.596);
+    display: flex;
+    background-color: #1D1D1D;
+    justify-content: space-between;
+    align-items: center;
+    padding-block:6px ;
+}
+.header img {
+height: 60px;
+}
+.icone {
+display: flex;
+}
+.links {
+    color: #eee;
+    margin-right: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    color: #eee;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.6s;
+}
+.links a:hover {
+color: #FBCC1A;
+}
+.titulo {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    color: #eee;
+    align-items: center;
+    font-size: 25px;
+    transition: all 0.6s;
+}
+.titulo:hover {
+    color: #FBCC1A;
+
+}
+.main {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.apresentacao {
+    background-color: #1D1D1D;
+    border-radius: 7px;
+    border: 1px solid #eeeeee36;
 }
 
 .textosobre{
