@@ -6,6 +6,7 @@
 }
 
 .body {
+    color: #eee;
     background-color: black;
     font-family: 'VT323', monospace;
 }
@@ -66,7 +67,55 @@ color: #FBCC1A;
     background-color: #1D1D1D;
     border-radius: 7px;
     border: 1px solid #eeeeee36;
+    padding: 15px;
 }
+.titulo-apresentacao {
+text-align: center;
+
+}
+.personagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.conteudo-apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.momonga {
+    animation: 2s momonga-sama infinite linear;
+    height: 300px;
+}
+.vida {
+    height: 25px;
+}
+.sobre {
+    margin-bottom: 20px;
+}
+.conteudo-stats {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+}
+.stats {
+width: 80px;
+height: 15px;
+border: 1px solid #eeeeee36;
+display: flex;
+border-radius: 4px;
+}
+.stats span {
+display: block;
+background-color: green;
+height: 100%;
+width: 20%;
+border-right: 1px solid gray ;
+
+}
+
 
 .textosobre{
     text-align: center;
@@ -155,5 +204,16 @@ color: #FBCC1A;
     to {
         right: 100%;
 
+    }
+}
+@keyframes momonga-sama {
+    0%{
+        transform: initial;
+    }
+    50%{
+        transform: translate3d(0px,5px,0px);
+    }
+    100%{
+        transform:initial;
     }
 }
