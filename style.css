@@ -63,14 +63,17 @@ color: #FBCC1A;
     max-width: 1100px;
     margin: 0 auto;
 }
-.apresentacao {
+.card {
+    height: 370px;
     background-color: #1D1D1D;
     border-radius: 7px;
     border: 1px solid #eeeeee36;
     padding: 15px;
+    margin-top: 100px;
 }
-.titulo-apresentacao {
+.titulo {
 text-align: center;
+font-size: 35px;
 
 }
 .personagem{
@@ -94,6 +97,7 @@ text-align: center;
 }
 .sobre {
     margin-bottom: 20px;
+    font-size: 25px;
 }
 .conteudo-stats {
 display: grid;
@@ -115,60 +119,29 @@ width: 20%;
 border-right: 1px solid gray ;
 
 }
-
-
-.textosobre{
-    text-align: center;
-    color: aliceblue;
-}
-
-.conteudo {
-
-    padding: 20px;
+.conteudo-conhecimento {
     display: flex;
-    align-items: center;
+    margin-top: 70px;
 }
-
-.textohabilidade{
-    height: fit-content;
-    background-color: rgba(133, 126, 126, 0.349);
-    border-radius: 7px;
-}
-
-.textohabilidade p{
-    padding: 7px;
-    border-bottom: 1px solid rgba(133, 126, 126, 0.349);
-    transition: 1s;
-    color:white;
-}
-
-.textohabilidade p:hover{
-    border-color: rgba(60, 60, 230, 0.822);
-}
-
-.escudo{
-    max-width: 600px;
-    display: block;
-    margin-inline: auto;
-    
-}
-
-.apresentação{
-    border: 1px solid #ffffff98;
-    padding: 20px;
-    background-color: rgba(133, 126, 126, 0.349);
-    border-radius: 7px;
-    width: 200px;
-    height: fit-content;
-    color: #fff;
-    background-color: rgba(133, 126, 126, 0.349);
-    transition: 1s;
+.icone-conhecimentos {
+width: 50%;
+display: flex;
+gap: 50px;
 
 }
-
-.apresentação:hover {
-    background-color: purple;
+.icone-conhecimentos img {
+    height: 60px;
+    width: 60px;
 }
+.texto-conhecimento {
+    width: 50%;
+}
+.paragrafo-conhecimento{
+    text-align: center;
+}
+
+
+
 .footer{
     width: 100%;
     height: 100px;
