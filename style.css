@@ -129,6 +129,16 @@ display: flex;
 gap: 50px;
 
 }
+.caixa {
+    border: 2px solid #FBCC1A;
+    padding: 15px;
+    border-radius: 7px;
+    transition: all 0.7s;
+}
+.caixa:hover {
+    border-color: #eee;
+
+}
 .icone-conhecimentos img {
     height: 60px;
     width: 60px;
@@ -138,6 +148,7 @@ gap: 50px;
 }
 .paragrafo-conhecimento{
     text-align: center;
+    font-size: 22px;
 }
 
 
@@ -161,7 +172,7 @@ gap: 50px;
     margin-left: 35%
 }
 .dragão  {
-    position: relative;
+    position: absolute;
     height: 100px;
     width: 100%;
 }
