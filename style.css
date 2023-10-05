@@ -200,7 +200,54 @@ margin-top: 20px;
 width: 30px;
 height: 30px;
 }
+.titulo-contato {
+    text-align: center;
 
+}
+.contato {
+    display: flex;
+    flex-direction: column;
+}
+.conteudo-contato {
+    display: flex; 
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    gap: 25%;
+}
+
+.formulario label{
+    display: block;
+}
+.formulario input{
+    width: 100%;
+    margin-bottom: 12px;
+    border-radius: 7px;
+    padding: 5px;
+    background-color: #eeeeee86;
+    border: 2px solid #eeeeee31;
+    color: #000000;
+}
+.formulario input:focus{
+    outline: none;
+}
+.formulario textarea {
+    background-color: #eeeeee86;
+    border: 2px solid #eeeeee31;
+    color: #000000;
+    border-radius: 7px;
+}
+.formulario textarea:focus{
+    outline: none;
+}
+.link-contato {
+    display: flex;
+
+}
+.link-contato img {
+height: 80px;
+width: 80px;
+}
 
 .footer{
     width: 100%;
