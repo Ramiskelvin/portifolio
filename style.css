@@ -240,6 +240,23 @@ height: 30px;
 .formulario textarea:focus{
     outline: none;
 }
+.butao {
+    display: block;
+    margin-top: 10px;
+    background-color: #eeeeee86;
+    color: aliceblue;
+    border-radius: 7px;
+    padding: 5px 10px;
+    border: 2px solid #eeeeee31;
+    cursor: pointer; 
+    transition: all 1s;
+}
+.butao:hover {
+    background-color: #FBCC1A;
+    color: black
+
+}
+
 .link-contato {
     display: flex;
 
@@ -250,10 +267,20 @@ width: 80px;
 }
 
 .footer{
+    box-sizing: border-box;
     width: 100%;
-    height: 100px;
+    padding: 20px;
     background-color: rgba(133, 126, 126, 0.349);
-    
+    display: flex;
+    justify-content: space-between;
+}
+.copy {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.emoji {
+    font-size: 25px;
 }
 
 .github{
