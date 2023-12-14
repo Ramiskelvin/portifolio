@@ -55,7 +55,7 @@ display: flex;
 color: #FBCC1A;
 }
 .hamburger-celular {
-    width: 20px;
+    width: 30px;
     display: none;
     position: relative;
     gap: 5px;
@@ -268,6 +268,7 @@ height: 30px;
     border: 2px solid #eeeeee31;
     cursor: pointer; 
     transition: all 1s;
+    font-family: 'VT323', monospace;
 }
 .butao:hover {
     background-color: #FBCC1A;
@@ -292,11 +293,13 @@ width: 80px;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    align-items: center;
 }
 .copy {
     display: flex;
     gap: 5px;
     align-items: center;
+    
 }
 .emoji {
     font-size: 25px;
@@ -351,47 +354,7 @@ width: 80px;
         transform:initial;
     }
 }
-
-@media (max-width: 700px) {
-    .header .hamburger-celular {
-      display: flex;
-      margin-right: 40px;
-    }
-
-    .links {
-        position: absolute;
-        top: 100%;
-        flex-direction: column;
-        right: -40px;
-        background-color:#1D1D1D;
-        padding: 15px;
-        gap:20px ;
-        opacity: 0;
-        pointer-events: none;
-        transition: all 0.5s;
-        transform: translate3d(0px, -50px, 0px);
-    }
-
-
-  }
-  @media (max-width: 815px) {
-    .main { 
-        margin: 0 auto;
-
-    }
-    .conteudo-apresentacao{
-        flex-direction: column;
-        gap: 0px;
-    }
-    .card{
-        height: 100vh;
-    }
-    .conteudo-stats {
-        justify-items: center;
-        margin-top: 50px;
-    }
-  }
-  @media (max-width: 930px) {
+@media (max-width: 930px) {
 
     #conhecimentos {
         display: flex;
@@ -419,6 +382,48 @@ width: 80px;
 
 
   }
+@media (max-width: 815px) {
+    .main { 
+        margin: 0 auto;
+
+    }
+    .conteudo-apresentacao{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .card{
+        height: 100vh;
+    }
+    .conteudo-stats {
+        justify-items: center;
+        margin-top: 50px;
+    }
+  }
+
+@media (max-width: 700px) {
+    .header .hamburger-celular {
+      display: flex;
+      margin-right: 40px;
+    }
+
+    .links {
+        position: absolute;
+        top: 100%;
+        flex-direction: column;
+        right: -40px;
+        background-color:#1D1D1D;
+        padding: 15px;
+        gap:20px ;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.5s;
+        transform: translate3d(0px, -50px, 0px);
+        border: 1px solid #eeeeee31;
+    }
+
+
+  }
+
   @media (max-width:610px) {
     .conteudo-contato{
         flex-direction: column-reverse;
@@ -426,3 +431,9 @@ width: 80px;
 
     }
   }
+  @media (max-width:500px) {
+    .icone-conhecimentos {
+        flex-direction: column;
+    }
+
+}
