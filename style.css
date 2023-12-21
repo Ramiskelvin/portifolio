@@ -89,6 +89,9 @@ color: #FBCC1A;
     margin: 0 auto;
 }
 .card {
+    opacity: 0;
+    transition: 1s;
+    transform: translate3d(-200px,0px,0px);
     width: 90%;
     height: 370px;
     background-color: #1D1D1D;
